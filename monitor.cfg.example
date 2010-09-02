@@ -1,0 +1,14 @@
+#!/bin/zsh
+
+# Host that you want to monitor
+host='www.myhost.com'
+
+# Ports that should listen on this host
+ports=(22 25 53 80 443 993)
+
+# If something is wrong, send a mail to that guy
+mailto='philipp.gruber@flupps.net'
+
+# Increase if you get false positives on slow hosts
+timeout=1
+
