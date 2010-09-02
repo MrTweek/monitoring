@@ -4,10 +4,10 @@
 host='www.myhost.com'
 
 # Ports that should listen on this host
-ports=(22 25 53 80 443 993)
+ports=(ssh smtp domain http https imaps pop3)
 
 # If something is wrong, send a mail to that guy
-mailto='philipp.gruber@flupps.net'
+mailto='my-email@example.com'
 
 # Increase if you get false positives on slow hosts
 timeout=1
