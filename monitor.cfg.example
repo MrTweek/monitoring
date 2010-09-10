@@ -12,3 +12,12 @@ mailto='my-email@example.com'
 # Increase if you get false positives on slow hosts
 timeout=1
 
+# set to 1 to enable sms alert
+sendsms=0
+
+# your username & password for the sipgate.de web-interface (not SIP-ID)
+username=Yourname
+password=asdasdf
+
+# Number to send the message to, incl. international prefix.
+number=49176111222333
