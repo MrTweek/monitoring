@@ -13,6 +13,8 @@ mailto='my-email@example.com'
 timeout=1
 
 # set to 1 to enable sms alert
+# This needs an sipgate.de-account and their api scripts from
+# http://www.sipgate.de/user/download_api.php
 sendsms=0
 
 # your username & password for the sipgate.de web-interface (not SIP-ID)
